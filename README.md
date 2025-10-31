@@ -53,6 +53,7 @@ The frontend calls `${VITE_SUPABASE_URL}/functions/v1/submit-report`.
 ## Backend (Edge Function) + WorqHat Workflow
 
 ### WorqHat Workflow (Screenshot)
+<img width="1262" height="367" alt="worqhat-workflow" src="https://github.com/user-attachments/assets/2721b7a9-0ac8-4ef1-acf7-d169cab9e03d" />
 
 Implementation: `supabase/functions/submit-report/index.ts` (Deno).
 - Accepts `multipart/form-data`: `file` (image), `address`, `description`.
