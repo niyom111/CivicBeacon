@@ -1,0 +1,8 @@
+{
+  "deno.enable": true,
+  "deno.enablePaths": [
+    "beacon-civic-voice/supabase/functions"
+  ],
+  "deno.lint": true,
+  "deno.suggest.imports.autoDiscover": true
+}
